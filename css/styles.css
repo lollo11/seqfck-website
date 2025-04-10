@@ -3423,8 +3423,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 
 .s-about {
-    padding-top    : var(--vspace-4);
-    padding-bottom : var(--vspace-3);
+    padding-top    : var(--vspace-2);
+    padding-bottom : var(--vspace-2);
 }
 
 /* --------------------------------------------------------------------
@@ -3459,22 +3459,22 @@ img.u-pull-left {
 /* --------------------------------------------------------------------
  * ## about expertise
  * -------------------------------------------------------------------- */
-.about-expertise {
-    padding-top : calc(6 * var(--space));
+.section-title-list {
+    /* padding-top : calc(2 * var(--space)); */
 }
 
-.about-expertise .skills-list {
+.section-title-list .section-title-list-list {
     list-style  : none;
     margin-top  : var(--vspace-1);
     margin-left : 0;
 }
 
-.about-expertise .skills-list li {
+.section-title-list .section-title-list-list li {
     display      : inline-block;
     padding-left : 0;
 }
 
-.about-expertise .skills-list li:not(:last-child)::after {
+.section-title-list .section-title-list-list li:not(:last-child)::after {
     content : ", ";
 }
 
@@ -3484,7 +3484,8 @@ img.u-pull-left {
 .about-timelines {
     --timeline-left-padding : var(--vspace-1_75);
     --timeline-top-adjust   : var(--vspace-0_5);
-    padding-top             : var(--vspace-3);
+    padding-top             : var(--vspace-1);
+    padding-bottom             : var(--vspace-1);
 }
 
 .about-timelines .text-pretitle {
@@ -3614,8 +3615,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 
 .s-works {
-    padding-top    : var(--vspace-5);
-    padding-bottom : var(--vspace-3_5);
+    padding-top    : var(--vspace-2);
+    padding-bottom : var(--vspace-2);
 }
 
 .s-works .h1 {
