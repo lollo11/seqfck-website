@@ -2883,7 +2883,24 @@ img.u-pull-left {
 /* --------------------------------------------------------------------
  * ## circles
  * -------------------------------------------------------------------- */
-.s-pagewrap .circles,
+
+ .s-pagewrap .headimg,
+ .s-pagewrap .headimg span {
+     position : absolute;
+ }
+ 
+ .s-pagewrap .headimg {
+     width  : 76vw;
+     min-width: 600px;
+     max-width: 1200px;
+     top    : 180px;
+     left   : calc(100% - 36vw);
+ }
+
+/* --------------------------------------------------------------------
+ * ## circles
+ * -------------------------------------------------------------------- */
+ .s-pagewrap .circles,
 .s-pagewrap .circles span {
     position : absolute;
 }
@@ -4185,7 +4202,7 @@ img.u-pull-left {
 }
 
 .ss-copyright span {
-    font-size : var(--text-sm);
+    font-size : 14px;
     display   : inline-block;
 }
 
