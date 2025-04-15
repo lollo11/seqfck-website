@@ -75,7 +75,16 @@
 /* ------------------------------------------------------------------- 
  * ## fonts 
  * ------------------------------------------------------------------- */
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Serif+Text:ital@0;1&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+ /* @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Serif+Text:ital@0;1&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"); */
+
+ /* @import url("https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap"); */
+
+ /* @import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap"); */
+
+ @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+ /* @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"); */
+
 
 @font-face {
     font-family: 'VT323';
@@ -85,7 +94,10 @@
 :root {
 
     --font-1 : "Public Sans", sans-serif;
-    --font-2 : "DM Serif Display", serif;
+    /* --font-2 : "Rubik", sans-serif; */
+    --font-2 : "Russo One", sans-serif;
+    /* --font-2 : "Special Gothic Expanded One", sans-serif; */
+    /* --font-2 : "DM Serif Display", serif; */
 
     /* monospace
     */
@@ -252,7 +264,7 @@
     --text-xl          : calc(var(--text-lg) * var(--text-scale-ratio));
     --text-xxl         : calc(var(--text-xl) * var(--text-scale-ratio));
     --text-xxxl        : calc(var(--text-xxl) * var(--text-scale-ratio));
-    --text-display-1   : calc(var(--text-xxxl) * var(--text-scale-ratio));
+    --text-display-1   : calc(var(--text-xxl) * var(--text-scale-ratio));
     --text-display-2   : calc(var(--text-display-1) * var(--text-scale-ratio));
     --text-display-3   : calc(var(--text-display-2) * var(--text-scale-ratio));
 
@@ -1336,10 +1348,11 @@ h1, .h1 {
 
 @media screen and (max-width: 500px) {
     h1, .h1 {
-        font-size   : var(--text-xxxl);
+        font-size   : var(--text-xxl);
         line-height : calc(1.625 * var(--space));
     }
 }
+
 h2, .h2 {
     font-size   : var(--text-xxl);
     line-height : var(--vspace-1_5);
@@ -2708,7 +2721,7 @@ img.u-pull-left {
 }
 
 .text-huge-title {
-    --text-huge : 10.8rem;
+    --text-huge : 9.6rem;
     font-size   : var(--text-huge);
     line-height : 1.0740;
     margin-top  : 0;
